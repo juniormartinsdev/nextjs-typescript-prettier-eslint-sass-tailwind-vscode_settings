@@ -1,0 +1,158 @@
+{
+  "terminal.integrated.fontSize": 14,
+
+  "editor.tabSize": 4,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.semanticHighlighting.enabled": false,
+
+  "workbench.startupEditor": "newUntitledFile",
+
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.workingDirectories": ["back", "front"],
+  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+    //"screen": {      "path": "/usr/bin/screen"    }
+  },
+  //"terminal.integrated.defaultProfile.linux": "screen",
+  //"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "yaml.schemas": {
+    "file:///c%3A/Users/Junior/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.explorer.enabled": false,
+  "terminal.integrated.altClickMovesCursor": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  "javascript.validate.enable": false,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "**/node_modules": true
+  },
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "javascriptreact"
+  },
+
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+
+  "prettier.jsxSingleQuote": true,
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "workbench.editor.untitled.hint": "hidden",
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
