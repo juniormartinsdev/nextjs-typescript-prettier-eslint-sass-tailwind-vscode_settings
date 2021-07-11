@@ -28,8 +28,7 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "src/utils/createJsonCandidates_test"
+    "**/*.tsx"
   ],
   "exclude": ["node_modules"]
 }
